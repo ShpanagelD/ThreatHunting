@@ -82,4 +82,4 @@ point_8<-point_8%>%count(point_8$`point_8$orig_ip`,)
 point_8<-point_8[which(point_8$n==1),]
 knitr::kable(point_8[,c('point_8$orig_ip')], "pipe")
 ```
-
+### Работу выполнила Шпанагель Дарья. Группа БИСО-03-19.
